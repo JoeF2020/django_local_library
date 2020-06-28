@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '76f@+e%37*t-oqo651zvlj&@##02x)
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ancient-hollows-53538.herokuapp.com','127.0.0.1']
 
 
 # Application definition
